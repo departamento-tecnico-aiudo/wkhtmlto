@@ -1,0 +1,20 @@
+{
+    "name": "departamento-tecnico-aiudo/wkhtmlto",
+    "description": "Convert html to image or pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+    "keywords": ["image", "thumbnail", "snapshot", "wkhtmltoimage", "wkhtmltopdf", "convert", "binary"],
+    "license": "LGPL Version 3",
+    "homepage": "http://wkhtmltopdf.org/",
+    "authors": [
+        {
+            "name": "Aiudo",
+            "email": "dpto-tecnico@aiudo.es"
+        }
+    ],
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/wkhtmltoimage",
+        "bin/wkhtmltopdf"
+    ],
+    "require": {
+    }
+}
